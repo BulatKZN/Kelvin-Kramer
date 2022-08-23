@@ -9,3 +9,8 @@ navBtn.onclick = () => {
         navBtnImg.src = "/nav-open.de2ec138.svg";
     }
 };
+
+AOS.init({
+    disable: "phone"
+    // once: true
+});
